@@ -1,7 +1,9 @@
+//Gradebook – бұл курс бойынша студенттердің бағаларын жинап, талдап, есеп береді.
+
+
+
 package practice3;
 import java.util.ArrayList;
-
-import practice3.Student;
 
 public class Gradebook {
 
@@ -26,7 +28,7 @@ public class Gradebook {
 
         double sum = 0;
         for (Student s : students) {
-            sum += s.getGrade(); // 👈 ЕНДІ ДҰРЫС
+            sum += s.getGrade(); 
         }
         return sum / students.size();
     }

@@ -1,3 +1,7 @@
+//жалпы логикасы қолданушы сандарды енгізеди сосын биз  орташа манин avrg
+//және максималды манин мах есептеу.
+
+
 package practice3;
 
 import java.util.Scanner;
@@ -18,7 +22,7 @@ public class Analyzer {
 				if(input.equals("Q")) break;
 			    double dnum = Double.parseDouble(input);
 			    data.Add(dnum);
-			} catch (NumberFormatException e) {
+			} catch (NumberFormatException e) { // егер кате болса оны 
 			    System.err.println("Invalid string format: " + e.getMessage());
 			}
 		}
