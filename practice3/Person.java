@@ -1,18 +1,27 @@
 package practice3;
-
 public class Person {
 
-    private Gender gender;
+    private String name;
+    private String address;
 
-    public Person(Gender gender) {
-        this.gender = gender;
+    public Person(String name, String address) {
+        this.name = name;
+        this.address = address;
     }
 
-    public Gender getGender() {
-        return gender;
+    public String getName() {
+        return name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public String toString() {
-        return gender.toString();
+        return "Person[name=" + name + ", address=" + address + "]";
     }
 }
