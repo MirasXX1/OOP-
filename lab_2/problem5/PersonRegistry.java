@@ -2,9 +2,13 @@ package problem5;
 
 import java.util.ArrayList;
 
+//бул адамдардын тизимин сактау ушин 
+
 public class PersonRegistry {
 
     private ArrayList<Person> people;
+//бос тизим курамыз
+
 
     public PersonRegistry(){
         people = new ArrayList<>();

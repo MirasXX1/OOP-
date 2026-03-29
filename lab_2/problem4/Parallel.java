@@ -13,7 +13,7 @@ public class Parallel extends Circuit {
     public double getResistance(){
         return 1.0 / (1.0 / c1.getResistance() + 1.0 / c2.getResistance());
     }
-
+//бул кернеу ягни cir обьектисинее канша воль кернеу тусетинин айтады
     @Override
     public void applyPotentialDiff(double V){
         super.applyPotentialDiff(V);

@@ -1,5 +1,6 @@
 package problem4;
 
+//Серияға қосылған екі тізбек: c1 және c2
 public class Series extends Circuit {
 
     private Circuit c1, c2;
@@ -7,6 +8,8 @@ public class Series extends Circuit {
     public Series(Circuit c1, Circuit c2){
         this.c1 = c1;
         this.c2 = c2;
+
+        //Сериялы тізбектің жалпы кедергісі тен еки комп косындысы
     }
 
     @Override

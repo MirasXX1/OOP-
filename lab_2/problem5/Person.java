@@ -9,7 +9,9 @@ public abstract class Person {
     public Person(String name, int age){
         this.name = name;
         this.age = age;
+        //бул жерде итти адамга тагайындайды мысалы phdstud ит устай алмайды 
     }
+
 
     public void assignPet(Animal pet){
         if(canHavePet(pet)){
@@ -19,6 +21,8 @@ public abstract class Person {
             System.out.println(name + " cannot have this pet!");
         }
     }
+//адамнын колындагы жанауап жойылады
+
 
     public void removePet(){
         if(pet != null){

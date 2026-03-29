@@ -11,7 +11,7 @@ public class Employee extends Person {
 
     @Override
     protected boolean canHavePet(Animal pet){
-        return true; // Employee can have any pet
+        return true; 
     }
 
     @Override

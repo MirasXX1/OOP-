@@ -1,10 +1,11 @@
 package problem3;
 
+//агымдагы есеп айындагы жасалган операциялар саны
 public class CheckingAccount extends Account {
-
+//акысыз оперциялар саны
     private int transactions;
     private final int FREE_TRANSACTIONS = 3;
-
+//конс
     public CheckingAccount(int accNumber){
         super(accNumber);
         this.transactions = 0;
@@ -31,7 +32,7 @@ public class CheckingAccount extends Account {
                 System.out.println("Not enough balance for fee!");
             }
         }
-        transactions = 0; // reset after fees
+        transactions = 0;
     }
 
     @Override

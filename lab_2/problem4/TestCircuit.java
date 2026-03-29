@@ -20,7 +20,7 @@ public class TestCircuit {
 
         System.out.println("Total Resistance: " + circuit.getResistance() + " Ohms");
 
-        circuit.applyPotentialDiff(12); // 12V applied
+        circuit.applyPotentialDiff(12); 
 
         System.out.println("Total Current: " + circuit.getCurrent() + " A");
         System.out.println("Total Power: " + circuit.getPower() + " W");
